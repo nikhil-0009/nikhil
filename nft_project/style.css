@@ -1,0 +1,47 @@
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+div{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 320px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    padding: 20px;
+    border-radius: 12px;
+
+
+}
+.main{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+.equi{
+    width: 100%;
+    border-radius: 12px;
+}
+.days{
+    padding-left: 120px;
+    color:  hsl(215, 51%, 70%);
+    /* text-align: right; */
+}
+.eth{
+     color: hsl(178, 100%, 50%);
+}
+.line{
+    border: hsl(215, 32%, 27%) solid 1px;
+}
+.create{
+    color:  hsl(215, 51%, 70%);
+}
+.jules{
+    color: hsl(0, 0%, 100%);
+}
+.avtar{
+    width: 25px;
+}
+.our{
+    color:  hsl(215, 51%, 70%);
+}
