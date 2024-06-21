@@ -1,0 +1,50 @@
+body{
+   margin: 0;
+   font-family: Lexend Deca;
+   font-weight: 400;
+  
+   
+   
+}
+.main{
+    min-height: 100vh;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+   
+}
+.cards{
+    color: white;
+    padding: 1rem;
+    display: flex;
+    width: 900px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 1em 2em;
+    border-radius: 1.75em;
+    display: inline-block;
+}
+h2{
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    line-height: 20px;
+    padding: 3em;
+    border-radius: 10px 0px 0 10px;
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);
+    line-height: 20px;
+    padding: 3em;
+}
+.green{
+    background-color:hsl(179, 100%, 13%);
+    line-height: 20px;
+    padding: 3em;
+    border-radius: 0 10px 10px 0px;
+}
