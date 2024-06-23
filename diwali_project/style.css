@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'salsa', cursive;
+    background-color: #F99501;
+}
+.first{
+    min-height: 100vh;
+    background-color: #F99501;
+    background-image: url(/orange-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 1440px;
+    height: 1024px; */
+    
+}
+.first p{
+    font-size: 46px;
+    font-weight: 400;
+    font-family: 'salsa', cursive;
+    max-width: 400px;
+    margin-left: 15rem;
+    line-height: 57px;
+}
+.jhalar{
+    width: 220px;
+    margin-bottom: -180px;
+}
+.music{
+    margin-left: 15rem;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+audio::-webkit-media-controls-panel{
+    background-color: antiquewhite;
+}
+@media (max-width: 840px)
+{
+    .diyasecond{
+        display: none;
+    }
+    .diyafirst{
+        display: block;
+        margin-left: auto;
+        max-width: 300px;
+        width: 100%;
+        
+    }
+    .first p{
+        margin-left: 1rem;
+    }
+    .music{
+        margin-left: 1rem;
+    }
+    .jhalar{
+        margin-bottom: 0;
+    }
+    .none{
+        display: none;
+    }
+    .first p{
+        font-size: 24px;
+    }
+
+}
+.second{
+    background-color: #F99501;
+    /* padding-top: 1rem; */
+}
+.line{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.laxmi{
+    max-width: 1365px;
+    max-height: 763px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+
+}
+.second p{
+    font-family: Style Script;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 102px;
+    margin-left: 140px;
+}
+.para{
+    font-family:'salsa', cursive ;
+    font-size: 45px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 150px;
+    max-width: 855px;
+    min-height: 450px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2%;
+}
+
+.girl{
+    max-width: 324px;
+    margin-left: -5rem;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    display: block;
+    margin-left: 32px ;
+    margin-right: auto;
+    width: 1365px;
+    height: 763px;
+
+}
+.last{
+    margin-left: 48px;
+}
+.diwali{
+    font-family:'salsa', cursive ;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.thankyou{
+    font-family: Style Script;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 107px;
+    margin-top: -10px;
+}
+.end{
+    font-family:'salsa', cursive ;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 43px;
+}
