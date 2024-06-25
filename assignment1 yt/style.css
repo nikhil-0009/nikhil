@@ -1,0 +1,136 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.first{
+    width: 700px;
+    background-color: #1DE592;
+    padding: 30px;
+    border-radius: 15px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+    /* box-sizing: border-box; */
+}
+.first span{
+     margin: auto;
+    padding: auto;
+     
+}
+.first h1{
+    font-size: 3rem;
+    
+}
+.first h2{
+    border: none;
+    background-color: white;
+    border-radius: 40px;
+    width: fit-content;
+    padding: 20px 40px 20px 40px;
+    margin-top: 50px;
+}
+.second{
+    /* box-sizing: border-box; */
+    border: 2px solid lightgray;
+    width: 700px;
+    background-color: white;
+    /* padding: 30px; */
+    border-radius: 15px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.pad{
+    padding: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.second img{
+    width: 20%;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.profile{
+    border-top: 2px solid lightgray;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: blue;
+    font-size: 1.5rem;
+
+}
+.third{
+    border: 2px solid lightgray;
+    width: 700px;
+    background-color: white;
+    /* padding: 30px; */
+    border-radius: 15px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.kids{
+    width: 100%;
+    border-radius: 15px;
+}
+.lock{
+    width: 16px;
+}
+.main{
+    padding: 30px;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+.details{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    color: rgb(26, 89, 192);
+    width: fit-content;
+    padding: 20px;
+}
+.fourth{
+    width: 700px;
+    background-color: white;
+    /* padding: 30px; */
+    border-radius: 15px;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.flowdesk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.para{
+    text-align: center;
+    padding-top: 25px;
+}
+.spc{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.fbtn{
+    margin: 15px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.flast{
+    color: gray;
+    font-size: small;
+}
+.blck{
+    color: black;
+    font-weight: bold;
+}
