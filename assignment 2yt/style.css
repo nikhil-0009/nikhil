@@ -1,0 +1,194 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first{
+    width: 550px;
+    border: 1px solid lightgray;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 8px lightgrey;
+
+
+}
+.foodimg{
+    /* width: 100%; */
+    position: relative;
+}
+.promote{
+    border: none;
+    background-color: gray;
+    color: lightgrey;
+    width: fit-content;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.discount{
+    border: none;
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    border-radius: 5px;
+}
+.time{
+    border: none;
+    background-color: lightgrey;
+    color: black;
+    width: fit-content;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.food{
+    width: 100%;
+    height: max-content;
+    height: 400px;
+    border-radius: 15px;
+    /* object-fit: fill; */
+}
+.safe{
+    width: 70px;
+    /* height: 30px; */
+    padding-top: 10px;
+}
+
+.gry{
+    font-size: 1rem;
+    color: rgb(62, 65, 67);
+    font-weight: lighter;
+}
+.second{
+    width: 550px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+
+}
+.baliclss{
+    position: relative;
+}
+
+ .beach{
+    width: 100%;
+    border-radius: 20px;
+ }
+ .pos1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    /* right: 180px; */
+ }
+ .pos2{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+ }
+ .pos3{
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    background-color: white;
+    color: black;
+    border-radius: 45px;
+    padding: 12px;
+ }
+ .third{
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+ }
+ .zomato-img{
+    width: 100%;
+    height: 250px;
+ }
+ .zomclss{
+    position: relative;
+ }
+ .third h1{
+    font-size:64px;
+    font-weight: bolder;
+    position: absolute;
+    top: -10px;
+    left:36%
+    
+
+
+ }
+ .third h2{
+    font-size: medium;
+    font-weight: lighter;
+    position: absolute;
+    top: 115px;
+    left:36%
+    
+ }
+ .menu{
+    position: absolute;
+    bottom: 65px;
+    left: 36%;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    color: black;
+
+ }
+#city{
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-right: 1px solid black;
+    
+}
+#search{
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.fourth{
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.last{
+    position: relative;
+}
+.mountain{
+    width: 100%;
+}
+.me{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: 200px;
+}
+.last h1{
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+.last p{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+}
