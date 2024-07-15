@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+    margin: 0;
+    
+}
+@media(min-width:900px)
+{
+    .header{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .rightmenu{
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #492118;
+        text-transform: capitalize;
+    }
+    .lines{
+        display: none;
+    }
+    .maincontent{
+        background-color: #F6F0EB;
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .groupburgers img{
+        width: 90%;
+        margin: auto;
+        object-fit: contain;
+    }
+    .groupburgers div{
+        font-size: 24px;
+        font-weight: 400;
+        color: #492118;
+    }
+    .div a{
+        text-decoration: none;
+    }
+    .crossimg{
+        display: none;
+    }
+    .burger div{
+        font-size: 2.7rem;
+        color: #492118;
+        font-weight: 700;
+        padding-top: 5rem;
+        text-transform: capitalize;
+    
+    }
+    .burger img{
+        width: 65%;
+        margin: auto;
+        object-fit: contain;
+        padding-top: 2.5rem;
+    }
+    .hyperlink{
+        width: 65%;
+        margin: auto;
+        text-align: right;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+    a{
+        color: #492118;
+        font-size: 2rem;
+        font-weight: 700;
+        /* transition-delay: 2s; */
+        
+    }
+    .last{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: #858585;
+        padding-bottom: 3rem;
+    }
+}
+@media(max-width:899px)
+{
+    
+    .header{
+        width: 100%;
+        background-color: #F6F0EB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+    }
+    .logo img{
+        width: 30px;
+        
+    }
+    .lines{
+        position: relative;
+        /* display: none; */
+        cursor: pointer;
+    }
+    .div a{
+        text-decoration: none;
+    }
+    .line-img{
+        position: absolute;
+        right: 35%;
+        top: 30%;
+    }
+    .rightmenu{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        font-size: 10px;
+        font-weight: 700;
+        color: #492118;
+        text-transform: capitalize;
+        text-align: left;
+        background-color: white;
+        opacity: 80%;
+        padding: 15px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        
+    }
+    .navbar{
+        display: none;
+    }
+    .crossimg{
+        
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+    .crossimg img{
+        width: 8px;
+    }
+    .maincontent{
+        background-color: #F6F0EB;
+        text-align: center;
+        padding-top: .3rem;
+    }
+    .groupburgers img{
+        width: 90%;
+        margin: auto;
+        object-fit: contain;
+    }
+    .groupburgers div{
+        font-size: 10px;
+        font-weight: 400;
+        color: #492118;
+    }
+    .burger div{
+        font-size: 1rem;
+        color: #492118;
+        font-weight: 700;
+        padding-top: 2rem;
+        text-transform: capitalize;
+    
+    }
+    .burger img{
+        width: 75%;
+        margin: auto;
+        object-fit: contain;
+        padding-top: 1rem;
+    }
+    .hyperlink{
+        width: 65%;
+        margin: auto;
+        text-align: right;
+        padding-top: 1.5rem;
+        padding-bottom: 1.8rem;
+    }
+    a{
+        color: #492118;
+        font-size: 12px;
+        font-weight: 700;
+        /* transition-delay: 2s; */
+        
+    }
+    .last{
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        color: #858585;
+        padding-bottom: 3rem;
+    }
+}
