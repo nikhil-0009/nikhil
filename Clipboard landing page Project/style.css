@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family:  "Bai Jamjuree", sans-serif;
+}
+.main{
+    text-align: center;
+}
+.bgpic img{
+    width: 100%;
+    height: 230px;
+}
+.bgpic{
+    margin: 25px;
+}
+.logoimg{
+    position: absolute;
+    top: 8%;
+    left: 45%;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 35px;
+}
+.ios{
+    padding: 15px 25px;
+    background-color: hsl(171, 66%, 44%);
+    color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px black;
+}
+.mac{
+    padding: 15px 25px;
+    background-color:hsl(233, 100%, 69%);
+    color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px black;
+}
+.first-heading{
+    color:  hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.first-para{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.second{
+    margin-top: 200px;
+}
+.second-heading{
+    color:  hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.second-para{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.third{
+    margin-top: 150px;
+    display: flex;
+}
+.computer-img{
+    /* height: 572px;
+    display: inline-block;
+    text-align: left; */
+}
+.computer-img img{
+    /* float: left; */
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: flex-start; */
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 35px;
+}
+.sec{
+    padding: 30px 50px;
+}
+.head{
+    color:  hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sub{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.fourth{
+    margin-top: 150px;
+}
+.fourth-head{
+    color:  hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.fourth-para{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.fourth-img{
+    margin-top: 80px;
+}
+.fourth-scndhead{
+    color:  hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.fourth-scndpara{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.fifth{
+    margin-top: 100px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+}
+.flex-head{
+    color:  hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.flex-para{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+}
+.sixth{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+.sixth-head{
+    color:  hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.sixth-para{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.footer{
+    padding: 45px 200px;
+    background-color: rgb(245,246,248);
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.foot-img img{
+    width: 50px;
+}
+.foot-first{
+    display: flex;
+    gap: 50px;
+    color:  hsl(201, 11%, 66%);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+    justify-content: left;
+    padding-top: 20px;
+}
+.item{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.foot-logos{
+    display: flex;
+    gap: 25px;
+}
