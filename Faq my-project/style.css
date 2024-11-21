@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/background-pattern-desktop.svg');
+    background-repeat: repeat-x;
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'Work Sans';
+}
+.primary{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.head{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: hsl(292, 42%, 14%);
+}
+.para{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hidden{
+    display: none;
+}
